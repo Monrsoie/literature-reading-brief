@@ -1,0 +1,5 @@
+# ScanSci wrappers depend on the pinned source-selection interface.
+scansci-pdf==1.16.0
+mcp>=1.0,<2
+PyMuPDF>=1.24,<2
+keyring>=25,<26

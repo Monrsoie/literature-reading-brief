@@ -1,0 +1,138 @@
+# 检索短语按子主题配置：subtopic_id|可直接提交给开放学术数据源的查询。
+# 新方向只需更新本文件的主题、词表和查询；不要把多个关键词堆进一条查询。
+# 公开交通安全示例，不代表安装者的实际研究方向；使用前修改词表与检索式。
+topic_name: 交通安全单车风险与路侧预警（示例）
+brief_language: zh-CN
+primary_since_year: 2023
+classic_before_year: 2023
+daily_top_k: 5
+
+# 标题或摘要命中核心词/当日子主题词，才进入主题相关性评分。
+core_terms:
+  - individual vehicle-level crash risk
+  - individual vehicle level
+  - single-vehicle risk
+  - collision risk
+  - crash risk prediction
+  - crash prediction
+  - lane-changing crash prediction
+  - accident risk identification
+  - traffic conflict
+  - near-miss
+  - collision warning
+  - freeway merging
+  - freeway weaving
+  - vehicle trajectory
+  - vehicle trajectories
+  - ETC gantry
+  - ETC data
+  - ETC transaction data
+  - roadside collision warning
+
+# 方法与研究启发词独立于研究领域；更换主题时同步更新即可。
+method_terms:
+  - pre-crash vehicle trajectories
+  - real-world trajectories
+  - vehicle trajectory extraction
+  - vehicle trajectories
+  - video analytics
+  - vehicle detection and tracking
+  - relative distance
+  - relative speed
+  - traffic conflict measures
+  - surrogate safety measures
+  - time-to-collision
+  - remaining distance
+  - extreme value theory
+  - non-stationary extreme value theory
+  - data fusion
+  - CAN bus
+  - roadside aggregation
+  - multimodal large language model
+  - multimodal large language models
+  - large language model
+  - LLM
+  - vision-language model
+
+idea_terms:
+  - individual vehicle-level
+  - real-time crash prediction
+  - proactive warning
+  - collision warning
+  - merging assistance
+  - near-miss detection
+  - roadside unit
+  - edge computing
+  - vehicle-to-infrastructure
+  - ETC gantry
+  - traffic camera
+  - visual grounding
+
+# 当前每天轮换一个子主题，每个子主题最多发起四条查询。
+query_templates:
+  - individual_risk|individual vehicle-level crash risk prediction lane changing
+  - individual_risk|pre-crash vehicle trajectories traffic conflict measures
+  - individual_risk|freeway merging vehicle collision risk prediction
+  - individual_risk|real-time lane-changing crash prediction surrounding vehicles
+  - roadside_warning|V2X edge computing driving safety monitoring warning individual vehicles
+  - roadside_warning|vehicle-to-infrastructure roadside unit safer lane changes warning
+  - roadside_warning|connected vehicle collision warning driving behavior safety
+  - roadside_warning|roadside aggregated connected vehicle information individual collision warning
+  - camera_conflicts|freeway weaving video analytics vehicle trajectory traffic conflict
+  - camera_conflicts|traffic camera vehicle trajectory extraction near-miss detection
+  - camera_conflicts|freeway merging video-based conflict prediction
+  - camera_conflicts|roadside camera real-time vehicle collision risk assessment
+  - etc_history|ETC gantry data vehicle driving behavior risk profiling
+  - etc_history|expressway ETC gantry vehicle risk warning
+  - etc_history|基于ETC门架数据 车辆行驶风险 画像
+  - etc_history|ETC gantry video vehicle trajectory safety monitoring
+  - large_model|multimodal large language model traffic video near-miss detection
+  - large_model|vision-language model traffic accident visual grounding
+  - large_model|V2X LLM connected vehicle corridor state prediction
+  - large_model|multimodal large model roadside traffic risk reasoning
+
+subtopics:
+  - individual_risk|高风险单车与合流换道|individual vehicle level;lane-changing crash prediction;pre-crash trajectories;freeway merging;relative distance;traffic conflict
+  - roadside_warning|路段态势到单车预警|sectional information;roadside aggregation;connected vehicle;collision warning;vehicle-to-infrastructure;edge computing
+  - camera_conflicts|门架摄像头与车际冲突|video analytics;traffic camera;vehicle trajectory extraction;near-miss;freeway weaving;vehicle tracking
+  - etc_history|ETC门架历史风险画像|ETC gantry;ETC data;ETC transaction data;ETC门架;vehicle risk profiling;driving characteristics;overspeed;fatigue driving
+  - large_model|大模型交通场景理解|multimodal large language model;multimodal large language models;vision-language model;traffic video;visual grounding;V2X-LLM;near-miss detection
+
+quality_sources:
+  - Transportation Research Part C
+  - Transportation Research Part B
+  - Transportation Research Part E
+  - Accident Analysis & Prevention
+  - Analytic Methods in Accident Research
+  - IEEE Transactions on Intelligent Transportation Systems
+  - IEEE Transactions on Intelligent Vehicles
+  - Transportation Research Record
+  - Transportation Research Part A
+  - Measurement
+  - Journal of Advanced Transportation
+  - 交通运输研究
+  - IEEE Intelligent Transportation Systems Conference
+  - ITSC
+  - IEEE Conference on Intelligent Transportation Systems
+  - China Journal of Highway and Transport
+  - 中国公路学报
+
+exclude_terms:
+  - thesis
+  - dissertation
+  - master thesis
+  - doctoral dissertation
+  - 硕士论文
+  - 博士论文
+  - medical diagnosis
+  - battery energy storage
+  - industrial applications
+  - cybersecurity
+
+scoring_dimensions:
+  - 主题相关性
+  - 近三年优先级
+  - 期刊会议质量
+  - 方法启发性
+  - 综述可用性
+  - 小论文灵感潜力

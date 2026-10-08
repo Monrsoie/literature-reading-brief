@@ -1,0 +1,15 @@
+# Formal venue screening. Verify each line against its linked sources before use.
+# Format: name|JIF|JCR quartile|CAS quartile|JIF year|JIF source URL|rank source URL|note|venue type
+# venue type is journal (default) or conference. A conference needs a documented top-tier
+# ranking in the rank source and may use N/A for JIF. Missing/stale rows are not recommended.
+
+journal_metrics:
+  - Frontiers of Engineering Management|9.8|Q1||2025|https://www.cae.cn/cae/html/main/col2295/2026-06/18/20260618092155424256033_1.html|https://www.cae.cn/cae/html/main/col2295/2026-06/18/20260618092155424256033_1.html|中国工程院说明现名ENGINEERING Management原名Frontiers of Engineering Management；2025 JIF 9.8 JCR工业工程Q1|journal
+  - World Electric Vehicle Journal|3.3|Q2||2025|https://www.mdpi.com/journal/wevj/imprint|https://www.mdpi.com/journal/wevj/history|出版社记载2025 JIF 3.3及JCR交通科技Q2|journal
+  - Applied Sciences|2.9|Q2||2025|https://www.mdpi.com/journal/applsci/imprint|https://www.mdpi.com/journal/applsci/stats|出版社记载2025 JIF 2.9；期刊统计页列JCR工程综合Q2|journal
+  - Electronics|2.9|Q2||2025|https://www.mdpi.com/journal/electronics/imprint|https://www.mdpi.com/journal/electronics/stats|出版社记载2025 JIF 2.9；期刊统计页列JCR电子电气工程Q2|journal
+  - Communications in Transportation Research|12.7|Q1|1区 Top|2025|https://www.sciopen.com/journal/2097-5023|https://wap.sciencenet.cn/home.php?do=blog&id=1544969&mod=space&uid=3534092|出版社列出2025 JIF及JCR交通学科Q1；中科院1区Top另见出版社2026-02-03新闻|journal
+  - Transportation Research Part C: Emerging Technologies|8.4|Q1||2025|https://www.iit.comillas.edu/publicacion/info_revista/en/302/Transportation_Research_Part_C_-_Emerging_Technologies|https://www.iit.comillas.edu/publicacion/info_revista/en/302/Transportation_Research_Part_C_-_Emerging_Technologies|大学研究所的JCR-JIF表|journal
+  - Accident Analysis & Prevention|7.4|Q1||2025|https://www.iit.comillas.edu/publicacion/info_revista/en/413/Accident_Analysis_%26_Prevention|https://www.iit.comillas.edu/publicacion/info_revista/en/413/Accident_Analysis_%26_Prevention|大学研究所的JCR-JIF表|journal
+  - Analytic Methods in Accident Research|10.7|Q1||2025|https://hub.hku.hk/handle/10722/355664|https://www.akaturk.com/journals/21100261712?lang=en|香港大学学术库明确2025 IF 10.7；JCR汇编页列2025 Q1，武汉理工大学教师主页亦列Q1|journal
+  - IEEE Transactions on Intelligent Vehicles|14.3|Q1||2024|https://open.ieee.org/wp-content/uploads/IEEE-Title-List-January-2026.pdf|https://open.ieee.org/wp-content/uploads/IEEE-Title-List-January-2026.pdf|IEEE 2026-01官方Title List；脚注注明2024 JCR研究于2025-06发布|journal

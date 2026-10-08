@@ -1,0 +1,22 @@
+# Personal research/runtime data must never be published.
+_data/
+Literature/
+maps/
+learning-records/
+lessons/
+projects/
+references.bib
+.obsidian/
+.codex/
+.agents/
+.venv/
+tools/
+__pycache__/
+*.py[cod]
+*.pdf
+*.bib
+*.ris
+*.sqlite*
+.env
+.env.*
+*.log

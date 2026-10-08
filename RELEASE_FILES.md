@@ -1,0 +1,40 @@
+# 发布文件清单
+
+此清单只列源码、离线测试、示例配置、模板及说明；不含任何文献、研究记忆、投递记录、凭据或运行环境。
+
+- `.gitignore`
+- `AGENTS.md`
+- `CHANGELOG.md`
+- `install.ps1`
+- `LICENSE`
+- `README.md`
+- `requirements.txt`
+- `SKILL.md`
+- `THIRD_PARTY_NOTICES.md`
+- `_references/journal-metrics.yml`
+- `_references/literature-note-template.md`
+- `_references/literature-reading-report-template.md`
+- `_references/research-topics.yml`
+- `_scripts/create_reading_report.py`
+- `_scripts/daily_brief_gate.py`
+- `_scripts/daily_literature_brief.py`
+- `_scripts/download_brief_pdf.py`
+- `_scripts/intake_selected_paper.py`
+- `_scripts/refresh_daily_brief.py`
+- `_scripts/research_brain.py`
+- `_scripts/sync_literature.py`
+- `_scripts/test_brief_pdf_links.py`
+- `_scripts/test_daily_brief_gate.py`
+- `_scripts/test_daily_literature_topics.py`
+- `_scripts/test_download_brief_pdf.py`
+- `_scripts/test_installation.py`
+- `_scripts/test_research_brain.py`
+- `_scripts/test_zotero_daily_collection.py`
+- `_scripts/test_zotero_import_local.py`
+- `_scripts/zotero_daily_collection.py`
+- `_scripts/zotero_import_local.py`
+- `_skills/literature-workflow/SKILL.md`
+- `_skills/literature-workflow/references/guided-reading.md`
+- `_skills/research-second-brain/LICENSE`
+- `_skills/research-second-brain/SKILL.md`
+- `RELEASE_FILES.md`（本清单）
